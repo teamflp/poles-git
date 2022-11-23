@@ -1,3 +1,4 @@
-
+Initialisation du projet avec la commande : git init
 Ceci est une deuxième ligne
 Ceci est une troisième ligne
+Ceci est une quatrième ligne
