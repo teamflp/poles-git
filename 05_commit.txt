@@ -1,2 +1,7 @@
 Pour valider les modifications apportées au fichier on utilise la commande
 git commit -m "text parlant"
+
+Un commit, c'est un enregistrement de l'état actuel du projet. 
+On peut faire autant de commit que l'on veut. 
+On peut aussi revenir en arrière en utilisant la commande suivante: 
+git reset --hard HEAD~1 (pour revenir en arrière d'un commit)

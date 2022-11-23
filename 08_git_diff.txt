@@ -1,0 +1,3 @@
+git diff permet de voir les modifications apportées au fichier 
+ou la différences entre deux versions d'un fichier.
+On utilise la commande : git diff nom_fichier
