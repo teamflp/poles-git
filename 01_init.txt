@@ -1,0 +1,1 @@
+Initialisation du projet avec la commande : git init
