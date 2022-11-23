@@ -1,0 +1,2 @@
+Pour valider les modifications apportées au fichier on utilise la commande
+git commit -m "text parlant"
