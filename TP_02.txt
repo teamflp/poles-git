@@ -1,0 +1,20 @@
+TRAVEAUX PRATIQUES SUR GIT
+
+TP 2 - Travail en équipe
+1. Créer un compte sur github.com (si vous n’en avez pas déjà un).
+2. Créer un dépôt sur github.com (nommé par exemple « tp-git »).
+3. Inviter un autre membre de votre équipe à collaborer sur le dépôt (Settings > Collaborators).
+4. Cloner le dépôt sur votre machine locale.
+5. Créer un fichier README.md dans le dépôt local. (Vous pouvez utiliser un éditeur de texte comme notepad++ ou vim).
+6. Ajouter le fichier au dépôt (git add README.md).
+7. Commiter le fichier (git commit -m « ajout du fichier README.md »).
+8. Pousser le fichier sur le dépôt distant (git push origin master).
+9. Créer une branche (git branch « nom_de_la_branche »).
+10. Pousser la branche sur le dépôt distant (git push origin « nom_de_la_branche »).
+11. Créer une pull request sur github.com. avec la commande : git request-pull « nom_de_la_branche » « nom_de_la_branche »
+(Vous pouvez utiliser l’interface web de github.com ou la ligne de commande).
+12. Fusionner la pull request sur github.com. avec la commande : git merge « nom_de_la_branche ».
+(Vous pouvez utiliser l’interface web de github.com ou la ligne de commande).
+13. Supprimer la branche sur le dépôt distant (git push origin :« nom_de_la_branche »).
+14. Récupérer les modifications du dépôt distant (git pull origin master).
+15. Supprimer la branche sur le dépôt local (git branch -d « nom_de_la_branche »).

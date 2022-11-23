@@ -1,0 +1,23 @@
+Définition de Git:
+Git est un service web d'hébergement et de gestion de développement de logiciel utilisant 
+le système de gestion de versions décentralisé. 
+
+Le but de Git est de fournir un système de gestion de versions rapide et efficace avec une interface 
+de ligne de commande simple et une gestion de projet efficace.
+Git est un logiciel libre et open source distribué sous licence GNU GPL version 2.0
+
+- Il permet aux utilisateurs de stocker et de controler des versions de fichiers de leurs codes sources
+- Il permet de gérer des versions de fichiers et de répertoires. 
+- Il permet de travailler en équipe sur un même projet. 
+- Il permet de gérer les conflits entre les différentes versions. 
+- Il permet de revenir à une version antérieure. 
+- Il permet de travailler en local et de synchroniser avec un serveur distant.
+
+Avant de commencer, il faut installer Git sur votre ordinateur. 
+Pour cela, rendez-vous sur le site officiel de Git : https://git-scm.com/downloads
+
+Si vous utilisez Windows, téléchargez le fichier .exe et lancez-le. Suivez les instructions pour installer Git sur votre ordinateur.
+
+Après l'installation, ouvrez Git Bash. C'est un terminal qui permet de lancer des commandes Git.
+ou un terminal de commande (cmd), ou un terminal de commande (powershell) ou le terminal de votre IDE (Visual Studio Code, PHPStorm, etc.)
+Vous pouvez vérifier que Git est bien installé en tapant la commande suivante : git --version

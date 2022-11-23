@@ -1,0 +1,4 @@
+Git pull 
+Permet de récupérer les modifications du serveur distant. Il est possible de récupérer les modifications d'un autre dépôt distant en utilisant la commande suivante :
+     - git pull <nom_du_dépôt_distant> <branche>
+     - exemple : git pull origin master

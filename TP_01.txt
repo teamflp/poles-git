@@ -1,0 +1,18 @@
+TRAVEAUX PRATIQUES SUR GIT
+
+TP 1- Cet TP a pour but de vous faire manipuler les commandes de base de git.
+
+1. Créer un compte sur github.com (si vous n’en avez pas déjà un).
+2. Créer un dépôt sur github.com (nommé par exemple « tp-git »).
+3. Cloner le dépôt sur votre machine locale. 
+4. Créer un fichier README.md dans le dépôt local. (Vous pouvez utiliser un éditeur de texte comme notepad++ ou vim).
+5. Ajouter le fichier au dépôt (git add README.md).
+6. Commiter le fichier (git commit -m « ajout du fichier README.md »).
+7. Pousser le fichier sur le dépôt distant (git push origin master).
+8. Créer une branche (git branch « nom_de_la_branche »).
+9. Pousser la branche sur le dépôt distant (git push origin « nom_de_la_branche »).
+10. Créer une pull request sur github.com. (Vous pouvez utiliser l’interface web de github.com ou la ligne de commande). 
+11. Fusionner la pull request sur github.com. (Vous pouvez utiliser l’interface web de github.com ou la ligne de commande).
+12. Supprimer la branche sur le dépôt distant (git push origin :« nom_de_la_branche »).
+13. Récupérer les modifications du dépôt distant (git pull origin master).
+14. Supprimer la branche locale (git branch -d « nom_de_la_branche »).

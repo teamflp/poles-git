@@ -1,0 +1,10 @@
+git request-pull 
+
+Permet de faire une demande de fusion de code entre deux branches. 
+
+git request-pull  [options]  [url]  [start-point]  [end-point]
+
+exemple : git request-pull origin/master master (demande de fusion de la branche master de l’origine vers la branche master locale)
+
+Demande de fusion de la branche master de locale vers la branche master origine
+

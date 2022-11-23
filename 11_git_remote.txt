@@ -1,0 +1,34 @@
+Git remote:
+> Permet de gérer les dépôts distants. On peut: 
+     - ajouter, 
+     - supprimer, 
+     - renommer, 
+     - mettre à jour,
+     - pousser,
+     - etc. un dépôt distant.
+
+> Pour ajouter un dépôt distant, on utilise la commande suivante:
+     - git remote add origin https://github.com/teamflp/poles-git.git
+
+> Pour supprimer un dépôt distant, on utilise la commande suivante:
+     - git remote rm https://github.com/teamflp/poles-git.git
+
+> Pour renommer un dépôt distant, on utilise la commande suivante:
+     - git remote rename https://github.com/teamflp/poles-git.git formation-git
+
+> Pour mettre à jour un dépôt distant, on utilise la commande suivante:
+     - git remote update formation-git 
+
+> Pour afficher les dépôts distants, on utilise la commande suivante:
+     - git remote -v nom_de_la_branche
+
+> Pour afficher les branches distantes, on utilise la commande suivante:
+     - git branch -r nom_de_la_branche
+
+> Pour pousser une branche sur un dépôt distant, on utilise la commande suivante:
+     - git push nom_de_la_branche
+
+> Pour renommer la branche master en main
+     - git branch -M main
+
+

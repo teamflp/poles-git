@@ -1,0 +1,18 @@
+Git push
+Permet de pousser les modifications sur le serveur distant. Il est possible de pousser sur un autre dépôt distant en utilisant la commande suivante :
+     - git push <nom_du_dépôt_distant> <branche>
+     - exemple : git push origin master
+     
+> Pousser sur le dépôt distant origin sur la branche main et de créer la branche main sur le dépôt distant si elle n'existe pas.
+     - git push -u origin main : 
+
+Pousser sur le dépôt distant origin sur la branche main et forcer la mise à jour de la branche main sur le dépôt distant.
+     - git push -f origin main :  git push -f origin main
+     - git push -u origin main --force (ou -f) 
+
+     * -u veut dire upstream, signifie que la branche main du dépôt distant origin est la branche par défaut pour le dépôt local.
+     * -f veut dire force, signifie que la branche main du dépôt distant origin sera mise à jour même si elle a été modifiée depuis la 
+     dernière mise à jour locale.
+     * -b veut dire branch, signifie que la branche main du dépôt distant origin sera créée si elle n'existe pas.
+     * --force-with-lease veut dire force avec vérification, signifie que la branche main du dépôt distant origin sera mise à jour
+     seulement si elle n'a pas été modifiée depuis la dernière mise à jour locale.

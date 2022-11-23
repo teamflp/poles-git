@@ -1,7 +1,18 @@
 Pour revenir à un commit précédent on utilise la commande suivante : 
- - git checkout identifiant_du_commit 
- - git checkout -f identifiant_du_commit (pour forcer le checkout)
- - git reset --hard commit_id (pour revenir à un commit précédent et supprimer les modifications faites depuis ce commit)
 
-Pour switcher entre les branches on utilise la commande suivante : 
- - git checkout nom_de_la_branche
+Si on veut revenir à un commit précédent, on va utiliser la commande git checkout suivi de l'identifiant du commit. Cette commande permet de revenir à un commit précédent :
+git checkout identifiant_du_commit.
+Ex : git checkout 4b5510d48f56bcfe0670ef5cb8c6e62b0beeb723
+
+Cette étape s'appelle head detaché. Cela veut dire que le HEAD est détaché du commit.
+Le HEAD est un pointeur qui pointe vers le dernier commit. il est identifié par un code hexadécimal de type SHA-1. Ex: 
+il permet de savoir sur quel commit on se trouve. Pour voir le HEAD, on utilise la commande : 
+     - git log --oneline --graph --all
+
+Pour revenir au dernier commit, on utilise la commande suivante :
+     - git checkout 4b5510d48f56bcfe0670ef5cb8c6e62b0beeb723
+          Ex : git checkout master (pour revenir au dernier commit)
+
+     - git checkout -f identifiant_du_commit (pour forcer le checkout)
+     - git reset --hard commit_id (pour revenir à un commit précédent et supprimer les modifications faites depuis ce commit)
+     - git reset --hard HEAD (pour revenir au dernier commit)
