@@ -1,4 +1,0 @@
-Pour revenir à un commit précédent on utilise la commande suivante : 
- - git checkout identifiant_du_commit 
- - git checkout -f identifiant_du_commit (pour forcer le checkout)
- - git reset --hard commit_id (pour revenir à un commit précédent et supprimer les modifications faites depuis ce commit)

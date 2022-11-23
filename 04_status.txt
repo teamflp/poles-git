@@ -1,2 +1,0 @@
-git status : permet de voir le(s) fichier(s) ajouté(s) ou modifié(s)
-git status

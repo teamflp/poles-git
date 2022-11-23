@@ -1,9 +1,0 @@
-git log: permet voir l'historique des commits
-git log --oneline: permet de voir l'historique des commits en une ligne
-git log --oneline --graph: permet de voir l'historique des commits en une ligne avec un graphique
-
-git log va afficher l'historique des commits, avec les informations suivantes:
-- le hash du commit : c'est un identifiant unique pour chaque commit
-- l'auteur du commit : c'est la personne qui a fait le commit effectuer
-- la date du commit : c'est la date à laquelle le commit a été fait
-- le message du commit : c'est le message que l'auteur a écrit pour expliquer ce qu'il a fait
