@@ -1,1 +1,2 @@
 Initialisation du projet avec la commande : git init
+Ceci est une deuxième ligne
