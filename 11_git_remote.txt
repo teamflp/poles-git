@@ -10,6 +10,9 @@ Git remote:
 > Pour ajouter un dépôt distant, on utilise la commande suivante:
      - git remote add origin https://github.com/teamflp/poles-git.git
 
+> Pour pousser une branche sur un dépôt distant, on utilise la commande suivante:
+     - git push -u origin nom_de_la_branche
+
 > Pour supprimer un dépôt distant, on utilise la commande suivante:
      - git remote rm https://github.com/teamflp/poles-git.git
 
@@ -24,9 +27,6 @@ Git remote:
 
 > Pour afficher les branches distantes, on utilise la commande suivante:
      - git branch -r nom_de_la_branche
-
-> Pour pousser une branche sur un dépôt distant, on utilise la commande suivante:
-     - git push nom_de_la_branche
 
 > Pour renommer la branche master en main
      - git branch -M main

@@ -1,4 +1,6 @@
 Git clone
-Permet de cloner un dépôt distant. Il est possible de cloner un dépôt distant en utilisant la commande suivante :
+Permet de cloner un dépôt distant. 
+C'est à dire, copier un dépôt distant sur votre ordinateur. 
+Il est possible de cloner un dépôt distant en utilisant la commande suivante :
      - git clone <url_du_dépôt_distant>
      - exemple : git clone https://github.com/username/repository.git
