@@ -16,10 +16,6 @@ il faut supprimer la branche qui a été fusionnée avec la branche master.
 Pour cela, il faut utiliser la commande suivante :
      -git branch -d nom_de_la_branche
 
-> On supprime le contenu du fichier README.md
-On utilise la commande suivante :
-     -git rm README.md
-
 > On supprime le fichier README.md
 On utilise la commande suivante :
-     -git rm README.md
+     -git rm nom_du_fichier
