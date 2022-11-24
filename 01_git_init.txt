@@ -1,6 +1,10 @@
+On créé un nouveau projet/ou repository en locale et on l'initialise. 
+Pour cela, on va utiliser la commande git init. Cette commande permet d'initialiser un repository Git dans le dossier courant.
+cela va créer un dossier caché (.git) dans le dossier. Le dossier .git contient toutes les informations sur le repository Git. 
+Il ne faut surtout pas le supprimer.
 
-On initialise le repository ou proget Git dans le dossier demogit. Pour cela, on va utiliser la commande git init. Cette commande permet d'initialiser un repository Git dans le dossier courant.
-cela va créer un dossier caché .git dans le dossier demogit. Ce dossier contient toutes les informations sur le repository Git. Il ne faut surtout pas le supprimer.
-Il est possible de le cacher en utilisant la commande : git config core.hideDotFiles false.
-Pour afficher les fichiers cachés, on utilise la commande : ls -a / Sur windows : dir /a
-Initialisation du projet avec la commande : git init
+> Initialisation du projet avec la commande : git init
+> Il est possible de le cacher en utilisant la commande : - git config core.hideDotFiles false.
+> Pour afficher les fichiers cachés, on utilise la commande : 
+     - Sur Linux: ls -a 
+     - Sur windows : dir /a
