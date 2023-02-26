@@ -1,7 +1,8 @@
 Pour fusionner une branche avec la branche master.
-Avant de fusionner une branche avec la branche master, il faut se placer sur la branche master.
+Avant de fusionner une branche avec la branche master, il faut se placer sur la branche master avec la commande suivante:
+     - git checkout master
 Ensuite utiliser la commande suivante : 
-     -git merge nom_de_la_branche (la branche qui va être fusionnée avec la branche master)
+     - git merge nom_de_la_branche (la branche qui va être fusionnée avec la branche master)
 
 Une fois la branche fusionnée avec la branche master, 
 il faut supprimer la branche qui a été fusionnée avec la branche master.
