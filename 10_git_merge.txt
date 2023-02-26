@@ -8,3 +8,5 @@ Une fois la branche fusionnée avec la branche master,
 il faut supprimer la branche qui a été fusionnée avec la branche master.
 Pour cela, il faut utiliser la commande suivante :
      -git branch -d nom_de_la_branche
+Pour supprimer définitivement une branche, exécuter la commande suivante:
+     - git branch -D paterne
